@@ -19,3 +19,6 @@ ENV PATH /opt/conda/bin:$PATH
 ENV LANG C.UTF-8
 
 CMD [ "/bin/bash" ]
+
+RUN conda config --add channels r
+RUN conda config --add channels bioconda
