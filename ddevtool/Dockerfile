@@ -22,3 +22,7 @@ CMD [ "/bin/bash" ]
 
 RUN conda config --add channels r
 RUN conda config --add channels bioconda
+
+# base apps:
+RUN conda install -y numpy
+
