@@ -25,4 +25,5 @@ RUN conda config --add channels bioconda
 
 # base apps:
 RUN conda install -y numpy
+RUN conda install -y pysam
 
